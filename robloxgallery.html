@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+        * {
+            margin: 0px;
+        }
+
+        .menu {
+            background-color: rgba(0, 0, 0, 0.3);
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+
+        .logo {
+            color: white;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .col {
+            height: 400px;
+            width: 33.3%;
+        }
+
+        h1 {
+            padding: 150px;
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(57, 59, 60);
+        }
+
+        img:hover {
+            filter: grayscale(100);
+            transform: rotate(360deg);
+            transition: 4s;
+            border-radius: 50%;
+        }
+
+        @media all and (max-width:990px) {
+
+            nav {
+                flex-direction: column;
+            }
+            .row{
+                flex-direction: column;
+            }
+            .col{
+                width:100%;
+            }
+        }
+    </style>
+
+</head>
+
+</style>
+
+<body>
+    <nav class="menu">
+        <h2 class="logo">roblox</h2>
+        <a href="roblox.html">home</a>
+        <a href="robloxAbout1.html">about</a>
+        <a href="robloxgallery.html">gallery</a>
+        <a href="robloxContact.html">contact</a>
+    </nav>
+    <h1>roblox piggy gallery</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="https://i1.sndcdn.com/artworks-000732383467-s89dij-t500x500.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="https://i.ytimg.com/vi/c-faCdXQzzU/maxresdefault.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="https://progameguides.com/wp-content/uploads/2021/02/roblox-piggy-primrose-450x450.jpg"
+                    alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://pbs.twimg.com/media/E4lyBRSXwAAtruW?format=jpg&name=large" alt="">
+            </div>
+            <div class="col">
+                <img src="https://pbs.twimg.com/media/EoLrCCdVEAQUAJ9.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="https://progameguides.com/wp-content/uploads/2021/06/roblox-piggy-spidella-1-450x450.jpg"
+                    alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
